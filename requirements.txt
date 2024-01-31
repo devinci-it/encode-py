@@ -1,0 +1,4 @@
+click==8.1.7
+encoder @ file:///home/vince/Documents/projects/python/encoder
+prettytable==3.9.0
+wcwidth==0.2.13

@@ -1,0 +1,21 @@
+# .gitignore
+
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Dependency directories
+env/
+bin/
+lib/
+include/
+
+# Distribution directories
+dist/
+build/
+*.egg-info/
