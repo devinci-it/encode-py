@@ -1,9 +1,6 @@
-# encoder
-
 ![image](logo.svg)
 
-
-`encoder` is a Python package that provides a command-line interface for encoding and decoding strings using various methods such as Base64, URL encoding, and HTML encoding.
+`encode` is a Python package that provides a command-line interface for encoding and decoding strings using various methods such as Base64, URL encoding, and HTML encoding.
 
 ## Getting Started
 
@@ -53,7 +50,27 @@ Replace `/path/to/encoder-py/` with the actual path to your `encoder-py` directo
 Now, you can run the `encoder` command system-wide:
 
 ```bash
-encoder --interactive
+$ encoder --interactive
+
+    ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+    █░▄▄█░▄▄▀█▀▄▀█▀▄▄▀█░▄▀█░▄▄
+    █░▄▄█░██░█░█▀█░██░█░█░█░▄▄
+    █▄▄▄█▄██▄██▄███▄▄██▄▄██▄▄▄
+    ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+
+Author: devinci-it
+(c) 2024
+MIT LICENSE 
+    
+Usage: python cli.py [OPTIONS]
+
+Options:
+-e, --encode      Encode input string
+-d, --decode      Decode input string
+-c, --continuous  Continuous mode for encoding/decoding
+-t, --type TEXT   Select encoding type (default: base64)
+-i, --interactive Interactive mode for encoding/decoding
+-h, --help        Show this message and exit
 ```
 
 ## Contributing
